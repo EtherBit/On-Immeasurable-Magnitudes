@@ -1,6 +1,6 @@
 # On Immeasurable Magnitudes
 
-This is a paper I wrote some time ago, where I demonstrate how to correctly generate prime numbers. The algorithms are very inefficient and only serve the purpose of showing a new way of thinking about prime numbers.
+This is a paper I wrote some time ago, where I demonstrate how to correctly generate prime numbers. The algorithms are extremely inefficient and only serve the purpose of showing a new way of thinking about prime numbers.
 Unfortunately, after many attempts at reaching out to "experts" or people that are more mathematically inclined, I was disappointed and discouraged when the only people who responded--with few exceptions--had very cynical or condescending attitudes (some responded with insults before even reading what I was proposing). I came up with these ideas in 2013.
 
 So I timestamped the paper using the Bitcoin blockchain to ensure originality of ideas; I leave this paper here for those who are a bit more open minded and are not immediately dismissive of an academic nobody.
