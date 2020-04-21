@@ -10,3 +10,5 @@ I should emphasize, before you automatically assume, that this method is **NOT**
 
 Moreover, I have not found anything in the current state of research in number theory that aligns with my approach. If you think there is, please point me in the right direction. 
 
+### The statement
+
