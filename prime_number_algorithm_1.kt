@@ -18,7 +18,7 @@ fun main(args: Array<String>) {
     val seedImmeasurableString = getSetString(seedImmeasurables)
     println("Given the seed set $seedImmeasurableString")
     allImmeasurables.addAll(seedImmeasurables)
-    currentLadderStep = seedImmeasurables.max()!!
+    currentLadderStep = seedImmeasurables.maxOrNull() ?: 0
     yieldImmeasurables(seedImmeasurables = seedImmeasurables, splitSwapIndex = 0)
 }
 
@@ -109,7 +109,7 @@ fun yieldImmeasurables(seedImmeasurables: MutableList<Long>, splitSwapIndex: Int
                 currentIterationIndex++
                 val foundImmeasurables = currentBatchOfImmeasurables.distinct().filter { it !in allImmeasurables }
                 allImmeasurables.addAll(foundImmeasurables)
-                currentLadderStep = allImmeasurables.filter { it > currentLadderStep }.min()!!
+                currentLadderStep = allImmeasurables.filter { it > currentLadderStep }.minOrNull() ?: 0
                 currentBatchOfImmeasurables.clear()
                 val newSeedImmeasurables = seedImmeasurables.toMutableList()
                 newSeedImmeasurables.add(currentLadderStep)
